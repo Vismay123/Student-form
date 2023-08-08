@@ -1,0 +1,62 @@
+body {
+  background-color: #141b2d;
+}
+
+.App {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Source Sans 3", sans-serif;
+
+}
+.header {
+  display: flex;
+  align-items: auto;
+  justify-content: space-between;
+  padding: 1000px;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  width: 350px;
+  height: 100px;
+}
+
+
+
+h1{
+  text-align: center;
+  color: white;
+}
+label {
+  color: white;
+  display: block;
+}
+select{
+  width: 100%;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+

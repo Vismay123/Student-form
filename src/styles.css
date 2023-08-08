@@ -1,0 +1,100 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+.college-name {
+  width: 1000px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex: 1;
+  font-size: 40px;
+  background-color: #444;
+  color: #fff;
+  padding: 1rem;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-list li {
+  margin-bottom: 1rem;
+}
+
+.sidebar button {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  text-decoration: underline;
+}
+
+.content-container {
+  flex: 2;
+  padding: 1rem;
+}
+
+.upload-button {
+  float: right;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
